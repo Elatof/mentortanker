@@ -1,0 +1,6 @@
+Time report:
+Duration executeHashMapTest: 545707400 milliseconds : Wed Jul 14 21:26:38 EEST 2021
+Duration executeConcurrentHashMapTest: 652108200 milliseconds : Wed Jul 14 21:26:41 EEST 2021
+Duration executeSynchronizedMapTest: 618677200 milliseconds : Wed Jul 14 21:26:45 EEST 2021
+Duration executeCustomThreadSafeMapTest: 1065892600 milliseconds : Wed Jul 14 21:26:51 EEST 2021
+Duration executeCustomSynchronizedThreadSafeMapTest: 884972600 milliseconds : Wed Jul 14 21:26:55 EEST 2021

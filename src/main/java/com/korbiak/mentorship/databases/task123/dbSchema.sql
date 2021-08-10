@@ -1,3 +1,10 @@
+DROP TABLE IF EXISTS result;
+DROP TABLE IF EXISTS subject;
+DROP TABLE IF EXISTS tutor;
+DROP TABLE IF EXISTS phone_number;
+DROP TABLE IF EXISTS student;
+DROP TABLE IF EXISTS primary_skill;
+
 CREATE TABLE primary_skill
 (
     id   SERIAL PRIMARY KEY,

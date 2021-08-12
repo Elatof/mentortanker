@@ -1,6 +1,5 @@
 package com.korbiak.mentorship.multithreading.task6;
 
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Queue;
@@ -23,7 +22,8 @@ public class Broker {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            log.error("InterruptedException:{}", e.getMessage());
+            Thread.currentThread().interrupt();
         }
         consumer.interrupt();
         producer.interrupt();
@@ -38,7 +38,8 @@ public class Broker {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            log.error("InterruptedException:{}", e.getMessage());
+            Thread.currentThread().interrupt();
         }
         consumer2.interrupt();
         producer2.interrupt();

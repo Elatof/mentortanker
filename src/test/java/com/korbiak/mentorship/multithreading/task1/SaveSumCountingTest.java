@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ConcurrentModificationException;
 
-public class SaveSumCountingTest {
+class SaveSumCountingTest {
 
     private static final SaveSumCounting sumCounting = new SaveSumCounting();
 
     @Test
-    public void executeTest() {
+    void executeTest() {
         sumCounting.execute();
     }
 

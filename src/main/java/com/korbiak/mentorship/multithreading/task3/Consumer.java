@@ -21,7 +21,13 @@ public class Consumer implements Runnable {
             if (Objects.nonNull(value)) {
                 log.info("Consume: topic-{} value-{}", topic, value);
             }
-            try { Thread.sleep(3000); } catch (InterruptedException e) { e.printStackTrace(); }
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                log.error("InterruptedException:{}", e.getMessage());
+                Thread.currentThread().interrupt();
+                break;
+            }
         }
     }
 }

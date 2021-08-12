@@ -11,13 +11,13 @@ import java.nio.file.StandardOpenOption;
 import java.util.ConcurrentModificationException;
 import java.util.Date;
 
-public class SumCountingTest {
+class SumCountingTest {
 
     private final static String REPORT_PATH = "src/test/java/com/korbiak/mentorship/multithreading/task1/timeReport";
     private static final SumCounting sumCounting = new SumCounting();
 
     @Test
-    public void executeHashMapTest() {
+    void executeHashMapTest() {
         long startTime = System.nanoTime();
         Assertions.assertThrows(ConcurrentModificationException.class, sumCounting::executeHashMap);
         long endTime = System.nanoTime();
@@ -26,7 +26,7 @@ public class SumCountingTest {
     }
 
     @Test
-    public void executeConcurrentHashMapTest() {
+    void executeConcurrentHashMapTest() {
         long startTime = System.nanoTime();
         sumCounting.executeConcurrentHashMap();
         long endTime = System.nanoTime();
@@ -35,7 +35,7 @@ public class SumCountingTest {
     }
 
     @Test
-    public void executeSynchronizedMapTest() {
+    void executeSynchronizedMapTest() {
         long startTime = System.nanoTime();
         Assertions.assertThrows(ConcurrentModificationException.class, sumCounting::executeSynchronizedMap);
         long endTime = System.nanoTime();
@@ -44,7 +44,7 @@ public class SumCountingTest {
     }
 
     @Test
-    public void executeCustomThreadSafeMapTest() {
+    void executeCustomThreadSafeMapTest() {
         long startTime = System.nanoTime();
         sumCounting.executeCustomThreadSafeMap();
         long endTime = System.nanoTime();
@@ -53,7 +53,7 @@ public class SumCountingTest {
     }
 
     @Test
-    public void executeCustomSynchronizedThreadSafeMapTest() {
+    void executeCustomSynchronizedThreadSafeMapTest() {
         long startTime = System.nanoTime();
         sumCounting.executeCustomSynchronizedThreadSafeMap();
         long endTime = System.nanoTime();

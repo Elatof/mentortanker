@@ -26,7 +26,6 @@ public class ExchangeServiceImpl implements ExchangeService {
 
     @Override
     public synchronized void exchangeCurrency(String userName, String userSurname, ExchangeType exchangeType, BigDecimal value) {
-        try { Thread.sleep(2000); } catch (InterruptedException e) { e.printStackTrace(); }
         log.info("Start exchange currency for user: {} {}, with params: {}, {} | {}", userName, userSurname, exchangeType, value, Thread.currentThread());
         UserAccount targetUser = userDao.getUser(userName, userSurname);
         if (Objects.isNull(targetUser)) {

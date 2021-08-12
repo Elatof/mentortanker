@@ -18,26 +18,36 @@ public class BlockingObjectPool {
         this.pool = new PriorityQueue<>();
     }
 
-    public synchronized Object get()  {
+    public synchronized Object get() {
         if (pool.isEmpty()) {
-            try { this.wait(); } catch (InterruptedException e) { e.printStackTrace(); }
+            try {
+                this.wait();
+            } catch (InterruptedException e) {
+                log.error("InterruptedException:{}", e.getMessage());
+                Thread.currentThread().interrupt();
+            }
         }
         Object object = pool.poll();
         log.info("Get object: {}", object);
         if (pool.size() == size - 1) {
-            this.notify();
+            this.notifyAll();
         }
         return object;
     }
 
-    public synchronized void put(Object object){
+    public synchronized void put(Object object) {
         if (pool.size() == size) {
-            try { this.wait(); } catch (InterruptedException e) { e.printStackTrace(); }
+            try {
+                this.wait();
+            } catch (InterruptedException e) {
+                log.error("InterruptedException:{}", e.getMessage());
+                Thread.currentThread().interrupt();
+            }
         }
         log.info("Put object: {}", object);
         pool.add(object);
         if (pool.size() == 1) {
-            this.notify();
+            this.notifyAll();
         }
     }
 

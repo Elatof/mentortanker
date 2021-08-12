@@ -79,7 +79,6 @@ public class SumCounting {
             log.info("Start 'CountElements' thread: {}", Thread.currentThread().getName());
             while (true) {
                 if (targetMap.size() == COUNT) {
-                    log.info("End 'CountElements' thread: {}", Thread.currentThread().getName());
                     break;
                 }
                 try {
@@ -87,8 +86,10 @@ public class SumCounting {
                     log.info("Sum: {}", sum);
                 } catch (ConcurrentModificationException e) {
                     ex = e;
+                    break;
                 }
             }
+            log.info("End 'CountElements' thread: {}", Thread.currentThread().getName());
         }
     }
 }

@@ -24,7 +24,8 @@ public class SaveSumCounting {
             putThread.join();
             putThread.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            log.error("InterruptedException:{}", e.getMessage());
+            Thread.currentThread().interrupt();
         }
 
         log.info("Stop execute");
@@ -37,10 +38,15 @@ public class SaveSumCounting {
             log.info("Start 'PutElements' thread: {}", Thread.currentThread().getName());
             for (int i = 0; i < COUNT; i++) {
                 synchronized (monitor) {
-                    try { monitor.wait(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+                    try {
+                        monitor.wait(1000);
+                    } catch (InterruptedException e) {
+                        log.error("InterruptedException in PutElements:{}", e.getMessage());
+                        Thread.currentThread().interrupt();
+                    }
                     log.info("Put: {} , {}", i, i);
                     targetMap.put(i, i);
-                    monitor.notify();
+                    monitor.notifyAll();
                 }
             }
             log.info("End 'PutElements' thread: {}", Thread.currentThread().getName());
@@ -54,8 +60,13 @@ public class SaveSumCounting {
             log.info("Start 'CountElements' thread: {}", Thread.currentThread().getName());
             while (true) {
                 synchronized (monitor) {
-                    monitor.notify();
-                    try { monitor.wait(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+                    monitor.notifyAll();
+                    try {
+                        monitor.wait(1000);
+                    } catch (InterruptedException e) {
+                        log.error("InterruptedException in CountElements:{}", e.getMessage());
+                        Thread.currentThread().interrupt();
+                    }
                     if (targetMap.size() == COUNT) {
                         log.info("End 'CountElements' thread: {}", Thread.currentThread().getName());
                         break;

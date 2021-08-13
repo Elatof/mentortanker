@@ -1,8 +1,5 @@
 package com.korbiak.mentorship.multithreading.task1;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
@@ -54,14 +51,18 @@ public class CustomSynchronizedThreadSafeMap<K, V> implements Map<K, V> {
     }
 
     @Override
-    public synchronized void putAll(Map<? extends K, ? extends V> m) { }
+    public synchronized void putAll(Map<? extends K, ? extends V> m) {
+        throw new UnsupportedOperationException();
+    }
 
     @Override
-    public synchronized void clear() { }
+    public synchronized void clear() {
+        throw new UnsupportedOperationException();
+    }
 
     @Override
     public synchronized Set<K> keySet() {
-        return null;
+        return Set.of();
     }
 
     @Override

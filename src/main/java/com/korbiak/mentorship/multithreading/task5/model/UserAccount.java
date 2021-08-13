@@ -5,7 +5,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.HashMap;
+import java.util.EnumMap;
 import java.util.Map;
 
 @Data
@@ -13,7 +13,7 @@ public class UserAccount implements Serializable {
 
     private String name;
     private String secondaryName;
-    private Map<Currency, BigDecimal> currencyValues = new HashMap<>();
+    private Map<Currency, BigDecimal> currencyValues = new EnumMap<>(Currency.class);
 
     public UserAccount(String name, String secondaryName) {
         this.name = name;

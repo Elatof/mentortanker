@@ -4,3 +4,15 @@ Duration executeConcurrentHashMapTest: 652108200 milliseconds : Wed Jul 14 21:26
 Duration executeSynchronizedMapTest: 618677200 milliseconds : Wed Jul 14 21:26:45 EEST 2021
 Duration executeCustomThreadSafeMapTest: 1065892600 milliseconds : Wed Jul 14 21:26:51 EEST 2021
 Duration executeCustomSynchronizedThreadSafeMapTest: 884972600 milliseconds : Wed Jul 14 21:26:55 EEST 2021
+Duration executeCustomThreadSafeMapTest: 561948200 milliseconds : Thu Aug 12 20:16:42 EEST 2021
+Duration executeHashMapTest: 207886800 milliseconds : Thu Aug 12 20:17:40 EEST 2021
+Duration executeConcurrentHashMapTest: 214172700 milliseconds : Thu Aug 12 20:17:49 EEST 2021
+Duration executeSynchronizedMapTest: 192702200 milliseconds : Thu Aug 12 20:18:19 EEST 2021
+Duration executeCustomThreadSafeMapTest: 467944200 milliseconds : Thu Aug 12 20:18:51 EEST 2021
+Duration executeCustomThreadSafeMapTest: 461111400 milliseconds : Thu Aug 12 20:19:11 EEST 2021
+Duration executeCustomSynchronizedThreadSafeMapTest: 400624700 milliseconds : Thu Aug 12 20:19:23 EEST 2021
+Duration executeConcurrentHashMapTest: 213227900 milliseconds : Thu Aug 12 20:36:37 EEST 2021
+Duration executeCustomThreadSafeMapTest: 396204200 milliseconds : Thu Aug 12 20:40:14 EEST 2021
+Duration executeConcurrentHashMapTest: 217030200 milliseconds : Thu Aug 12 20:41:56 EEST 2021
+Duration executeCustomSynchronizedThreadSafeMapTest: 366774400 milliseconds : Thu Aug 12 20:42:26 EEST 2021
+Duration executeCustomThreadSafeMapTest: 340383000 milliseconds : Thu Aug 12 22:01:37 EEST 2021

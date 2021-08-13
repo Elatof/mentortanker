@@ -10,7 +10,7 @@ import java.util.Random;
 
 @Slf4j
 @AllArgsConstructor
-public class Producer implements Runnable{
+public class Producer implements Runnable {
 
     private final Map<String, Queue<Integer>> queueMap;
     private final String topic;
@@ -22,7 +22,12 @@ public class Producer implements Runnable{
             Integer value = new Random().nextInt(100);
             queueMap.get(topic).add(value);
             log.info("Produce: topic-{} value-{}", topic, value);
-            try { Thread.sleep(3000); } catch (InterruptedException e) { e.printStackTrace(); }
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                log.error("InterruptedException:{}", e.getMessage());
+                Thread.currentThread().interrupt();
+            }
         }
     }
 }

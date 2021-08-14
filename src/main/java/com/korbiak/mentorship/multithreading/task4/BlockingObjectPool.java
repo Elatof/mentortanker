@@ -28,7 +28,7 @@ public class BlockingObjectPool {
             }
         }
         Object object = pool.poll();
-        log.info("Get object: {}", object);
+        //log.info("Get object: {}", object);
         if (pool.size() == size - 1) {
             this.notifyAll();
         }
@@ -44,7 +44,7 @@ public class BlockingObjectPool {
                 Thread.currentThread().interrupt();
             }
         }
-        log.info("Put object: {}", object);
+        //log.info("Put object: {}", object);
         pool.add(object);
         if (pool.size() == 1) {
             this.notifyAll();

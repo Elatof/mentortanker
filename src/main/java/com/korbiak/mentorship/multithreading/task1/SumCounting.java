@@ -1,5 +1,6 @@
 package com.korbiak.mentorship.multithreading.task1;
 
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
@@ -8,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class SumCounting {
 
-    private static final int COUNT = 10000;
+    private static final int COUNT = 100;
     private Map<Integer, Integer> targetMap;
     private ConcurrentModificationException ex;
 
@@ -42,8 +43,8 @@ public class SumCounting {
         Thread putThread = new Thread(new PutElements());
         Thread sumThread = new Thread(new CountElements());
 
-        putThread.start();
         sumThread.start();
+        putThread.start();
 
         try {
             putThread.join();
@@ -78,14 +79,17 @@ public class SumCounting {
         public void run() {
             log.info("Start 'CountElements' thread: {}", Thread.currentThread().getName());
             while (true) {
-                if (targetMap.size() == COUNT) {
-                    break;
-                }
+                int sum;
                 try {
-                    int sum = targetMap.values().stream().reduce(Integer::sum).orElse(0);
+                    sum = targetMap.values().stream().reduce(Integer::sum).orElse(0);
                     log.info("Sum: {}", sum);
                 } catch (ConcurrentModificationException e) {
                     ex = e;
+                    break;
+                }
+                if (targetMap.size() == COUNT) {
+                    sum = targetMap.values().stream().reduce(Integer::sum).orElse(0);
+                    log.info("Final sum: {}", sum);
                     break;
                 }
             }

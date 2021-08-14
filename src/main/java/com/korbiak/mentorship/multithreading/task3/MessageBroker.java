@@ -1,6 +1,11 @@
 package com.korbiak.mentorship.multithreading.task3;
 
-import java.util.*;
+import com.korbiak.mentorship.multithreading.task4.BlockingObjectPool;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Queue;
 
 public class MessageBroker {
 
@@ -9,22 +14,19 @@ public class MessageBroker {
 
     public void execute() throws InterruptedException {
         //init
+
         Map<String, Queue<Integer>> map = new HashMap<>(2);
-        map.put(FIRST, new PriorityQueue<>());
-        map.put(SECOND, new PriorityQueue<>());
+        map.put(FIRST, new LinkedList<>());
+        map.put(SECOND, new LinkedList<>());
 
+        PCQueue pcQueue1 = new PCQueue(map, FIRST);
+        PCQueue pcQueue2 = new PCQueue(map, SECOND);
         //start produce
-        Thread producer1 = new Thread(new Producer(map, FIRST));
-        Thread producer2 = new Thread(new Producer(map, SECOND));
+        Thread producer1 = new Thread(pcQueue1::produce);
+        Thread producer2 = new Thread(pcQueue2::produce);
 
-        //end produce
-        Thread consumer1 = new Thread(new Consumer(map, FIRST));
-        Thread consumer2 = new Thread(new Consumer(map, SECOND));
-
-        producer1.setDaemon(true);
-        producer2.setDaemon(true);
-        consumer1.setDaemon(true);
-        consumer2.setDaemon(true);
+        Thread consumer1 = new Thread(pcQueue1::consume);
+        Thread consumer2 = new Thread(pcQueue2::consume);
 
         producer1.start();
         producer2.start();
@@ -32,7 +34,11 @@ public class MessageBroker {
         consumer2.start();
 
         //waiting for end
-        Thread.sleep(15000);
-    }
+        Thread.sleep(20);
 
+        producer1.interrupt();
+        producer2.interrupt();
+        consumer1.interrupt();
+        consumer2.interrupt();
+    }
 }

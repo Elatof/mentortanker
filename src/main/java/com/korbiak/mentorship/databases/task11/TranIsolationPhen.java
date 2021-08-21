@@ -9,18 +9,14 @@ import java.util.Properties;
 public class TranIsolationPhen {
 
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/mentorship_db";
-    private Connection connection;
+    private final Properties properties;
+    private static final int ISOLATION = Connection.TRANSACTION_READ_UNCOMMITTED;
 
     public TranIsolationPhen(String user, String password) {
-        try {
-            Properties parameters = new Properties();
-            parameters.put("user", user);
-            parameters.put("password", password);
-            this.connection = DriverManager.getConnection(DB_URL, parameters);
-        } catch (SQLException throwables) {
-            log.error("Error with connection to: {}", DB_URL);
-            throwables.printStackTrace();
-        }
+        Properties inputProperties = new Properties();
+        inputProperties.put("user", user);
+        inputProperties.put("password", password);
+        this.properties = inputProperties;
     }
 
     //Non-repeatable reads
@@ -37,13 +33,13 @@ public class TranIsolationPhen {
         } catch (InterruptedException exception) {
             exception.printStackTrace();
         }
-        closeConnection();
     }
 
     public void executeRead() {
         String query = "SELECT * FROM student WHERE student.id = 1";
-        try (Statement statement = connection.createStatement()) {
-            connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
+        try (Connection connection = DriverManager.getConnection(DB_URL, properties);
+             Statement statement = connection.createStatement()) {
+            connection.setTransactionIsolation(ISOLATION);
             connection.setAutoCommit(false);
             ResultSet resultSet1 = statement.executeQuery(query);
             printResultSet(resultSet1);
@@ -57,24 +53,14 @@ public class TranIsolationPhen {
     }
 
     public void executeUpdate() {
-        String query = "UPDATE public.student SET name='newName14' WHERE id = 1";
-        try (Statement statement = connection.createStatement()) {
-            connection.setTransactionIsolation(Connection.TRANSACTION_READ_COMMITTED);
+        String query = "UPDATE public.student SET name='newName999' WHERE id = 1";
+        try (Connection connection = DriverManager.getConnection(DB_URL, properties);
+             Statement statement = connection.createStatement()) {
+            connection.setTransactionIsolation(ISOLATION);
             try { Thread.sleep(500); } catch (InterruptedException exception) { exception.printStackTrace(); }
             statement.executeUpdate(query);
-            connection.commit();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-        }
-    }
-
-    private void closeConnection() {
-        try {
-            if (connection != null) {
-                connection.close();
-            }
-        } catch (SQLException ex) {
-            log.error("Error with closing connection to: {}", DB_URL);
         }
     }
 

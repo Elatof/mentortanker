@@ -62,7 +62,7 @@ public class CustomSynchronizedThreadSafeMap<K, V> implements Map<K, V> {
 
     @Override
     public synchronized Set<K> keySet() {
-        return Set.of();
+        return null;
     }
 
     @Override

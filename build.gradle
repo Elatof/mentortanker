@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'junit:junit:4.13.1'
+
     //lombok
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'

@@ -1,0 +1,277 @@
+Time report:
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 392800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 47900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 51300 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 7900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 16900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 5074700 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 807000 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 729700 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 415800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 276600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 6624200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 389400 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 263000 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 1834600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 89500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 814200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 75900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 74100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 36800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 32000 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 704600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 841200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 863500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 253400 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 259500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 24200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 25600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 28700 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 5800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 10500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 63300 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 76200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 59700 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 44600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 30500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 586500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 793600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 785100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 326600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator : 301800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 276200 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 315100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 352900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 80800 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 71900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 237600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 300100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 376100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 103900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator : 120000 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 23000 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 22400 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 45600 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 9100 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator : 27500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 66400 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 63400 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 94500 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 28300 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator : 34900 milliseconds : Sun Sep 12 12:48:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 5 : 419700 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 49200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 45700 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 0 : 9400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 1 : 17200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 5 : 4963100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 777200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 1021800 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 0 : 431400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 1 : 364100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 5 : 9327900 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 521400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 353000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 0 : 2276100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 1 : 151800 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 5 : 874000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 87400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 86200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 0 : 29300 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 1 : 39700 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 5 : 897300 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 1086500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 1066600 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 0 : 449200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 1 : 424900 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 5 : 35200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 36300 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 28500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 0 : 28900 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 1 : 23200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 5 : 51800 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 108400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 70400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 0 : 22600 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 1 : 59400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 5 : 735100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 1166000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 8 : 1044000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 0 : 509700 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, size: 1 : 363200 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 5 : 267000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 383500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 307900 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 0 : 108700 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 1 : 126100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 5 : 356100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 403100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 8 : 401300 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 0 : 69400 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, size: 1 : 75500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 5 : 16600 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 20600 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 8 : 22500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 0 : 5100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, size: 1 : 25100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 5 : 57500 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 78300 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 8 : 57000 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 0 : 28800 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, size: 1 : 47100 milliseconds : Sun Sep 12 12:49:38 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 6 : 818700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 2 : 40900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 26700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 4 : 64000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 17300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 45100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 3 : 4900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 3200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 5 : 1013400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 105900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 81500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 17400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 32800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 6 : 7094200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 2 : 836200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 796800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 4 : 1411000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 700100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 1450400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 3 : 1220600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 760900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 5 : 12798900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2434000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2155400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 901300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 949200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 5 : 19778000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 1409900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 1095000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 6716600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 283100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 6 : 2647000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 2 : 124600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 62800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 4 : 104700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 72000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 3920900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 3 : 129400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 35800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 5 : 1872600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 148100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 204300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 53100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 72100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 6 : 2607400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 2 : 247800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 253100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 4 : 430100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 172300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 6 : 39100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 2 : 45600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 32700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 4 : 31600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 14100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 1182600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 3 : 798000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 737800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 444600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 3 : 20400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 23300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 5 : 2104000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2385400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2346700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 857400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 912200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 6 : 38000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 2 : 65000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 20400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 4 : 29800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 14200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 6300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 3 : 4900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 2300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 5 : 33800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 45700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 43900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 11500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 25800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 6 : 99000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 2 : 69700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 124900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 4 : 84800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 49300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 25700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 3 : 28600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 19700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 5 : 95600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 118400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 117900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 94700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 55800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 6 : 1529000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 2 : 919700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 847500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 4 : 1193400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 690400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 1131800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 3 : 672000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 602900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 5 : 1685200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2282400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 8 : 2103700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 871200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 932500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 6 : 407400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 2 : 130500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 98400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 4 : 363900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 160400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 162500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 3 : 125500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 44400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 5 : 646300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 987800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 790500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 151500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 564700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 6 : 378600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 2 : 226000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 99200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 4 : 584300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 115300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 150700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 3 : 112500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 30300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 5 : 813400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 898400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 8 : 889500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 0 : 228100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8ParallelAggregator, input size: 1 : 216300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 7800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 3 : 5800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 3100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 5 : 44500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 59700 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 8 : 57900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 0 : 16400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7Aggregator, input size: 1 : 32000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 6 : 1474300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 2 : 855600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 1 : 1133400 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 4 : 1021300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java7ParallelAggregator, input size: 0 : 770800 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 6 : 72900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 2 : 65100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 72600 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 4 : 84900 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 34200 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 28100 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 3 : 24000 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 21300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 5 : 99300 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 146500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 8 : 138500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 0 : 52500 milliseconds : Sun Sep 12 12:51:49 EEST 2021
+Duration class com.korbiak.mentorship.java8.Java8Aggregator, input size: 1 : 60000 milliseconds : Sun Sep 12 12:51:49 EEST 2021

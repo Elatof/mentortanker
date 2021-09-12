@@ -1,11 +1,13 @@
 package com.korbiak.mentorship.java8.aggregator.duplicates;
 
 import com.korbiak.mentorship.java8.Aggregator;
+import com.korbiak.mentorship.java8.aggregator.TimeReporter;
 import org.junit.Test;
 import org.junit.runners.Parameterized;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -41,7 +43,10 @@ public abstract class JavaAggregatorDuplicatesTest {
 
     @Test
     public void test() {
+        long startTime = System.nanoTime();
         List<String> actual = aggregator.getDuplicates(words, limit);
+        long endTime = System.nanoTime();
         assertEquals(expected, actual);
+        TimeReporter.appendTimeReport("Duration " + aggregator.getClass() + ", input size: " + words.size() + " : " + (endTime - startTime) + " milliseconds : " + new Date());
     }
 }

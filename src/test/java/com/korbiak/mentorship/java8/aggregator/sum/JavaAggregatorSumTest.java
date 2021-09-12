@@ -1,10 +1,12 @@
 package com.korbiak.mentorship.java8.aggregator.sum;
 
 import com.korbiak.mentorship.java8.Aggregator;
+import com.korbiak.mentorship.java8.aggregator.TimeReporter;
 import org.junit.Test;
 import org.junit.runners.Parameterized;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -36,7 +38,10 @@ public abstract class JavaAggregatorSumTest {
 
     @Test
     public void test() {
+        long startTime = System.nanoTime();
         int actual = aggregator.sum(numbers);
         assertEquals(expected, actual);
+        long endTime = System.nanoTime();
+        TimeReporter.appendTimeReport("Duration " + aggregator.getClass() + ", input size: " + numbers.size() + " : " + (endTime - startTime) + " milliseconds : " + new Date());
     }
 }

@@ -1,12 +1,14 @@
 package com.korbiak.mentorship.java8.aggregator.frequency;
 
 import com.korbiak.mentorship.java8.Aggregator;
+import com.korbiak.mentorship.java8.aggregator.TimeReporter;
 import javafx.util.Pair;
 import org.junit.Test;
 import org.junit.runners.Parameterized;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -42,7 +44,10 @@ public abstract class JavaAggregatorFrequencyTest {
 
     @Test
     public void test() {
+        long startTime = System.nanoTime();
         List<Pair<String, Long>> actual = aggregator.getMostFrequentWords(words, limit);
+        long endTime = System.nanoTime();
         assertEquals(expected, actual);
+        TimeReporter.appendTimeReport("Duration " + aggregator.getClass() + ", input size: " + words.size() + " : " + (endTime - startTime) + " milliseconds : " + new Date());
     }
 }

@@ -1,0 +1,6 @@
+Simple commands (1 point)
+Print 'CDP JaMP' on the screen;
+Print OS information (name, kernel, etc.);
+Print current path;
+Print current date;
+Print current time.

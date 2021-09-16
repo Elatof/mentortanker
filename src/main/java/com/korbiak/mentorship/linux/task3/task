@@ -1,0 +1,8 @@
+Permissions (1 point)
+Get all files in the current directory;
+Create new folder 'permission';
+Go to this directory;
+Create new file 'secretFile' with content 'This is very secret info';
+Change permission of this file so that no one can read it;
+Get the list of files in the current directory with permissions information;
+Try to read information from the file.

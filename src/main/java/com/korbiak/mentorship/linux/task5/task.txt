@@ -1,0 +1,6 @@
+Processes (1 point)
+Get list of all running processes;
+Get list of all running processes with CPU and memory usage;
+Get list of all running processes of your user;
+Get dynamic real-time view list of processes that are currently being managed by the Linux kernel (CPU, Memory Usage, etc.);
+Sort previous list by Memory Usage.

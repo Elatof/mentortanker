@@ -1,0 +1,8 @@
+i=1
+while [ "$i" -lt 100001 ]    # this is loop1
+do
+	number=$(( ( RANDOM % 5000000 )  + 0 )) 
+	echo $number >> numbers
+	i=`expr $i + 1`
+done
+echo "Generated $i numbers"

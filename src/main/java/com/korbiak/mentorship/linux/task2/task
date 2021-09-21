@@ -1,0 +1,13 @@
+Navigation commands (1 point)
+The print full path of your home directory;
+Go to home directory;
+Get all files in the current directory;
+Create new folder 'test';
+Rename 'test' folder to 'newTest';
+Go to 'newTest' folder;
+Get current date and save the output to the file 'nowFile';
+Copy file 'nowFile'. New file name is 'copyOfNowFile';
+Get all files information (including date of creation, who created, etc.);
+Create empty file 'emptyFile' without text editor;
+Go up(back to home);
+Delete 'newTest' folder emtyFile.

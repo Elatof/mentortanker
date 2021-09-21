@@ -1,0 +1,9 @@
+Manage users and groups (1 point)
+Print current user;
+Change your password;
+Add new users ‘readUser’ and ‘editUser’;
+Add new groups ‘readers’ and ‘editors’;
+Add user ‘readUser’ to the group ‘readers’ and ‘editUser’ to the groups ‘editors’;
+Create ‘read’ ‘edit’ directories with any files inside (it can be files from previous tasks);
+Give groups permissions to directories (only read access for ‘readers‘ group to the ‘read’ directory and full access for ‘editors‘ group to the ‘edit’ directory);
+Try to switch between users and read information from files.

@@ -25,12 +25,12 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
-    // https://mvnrepository.com/artifact/io.dropwizard.metrics/metrics-core
     implementation group: 'io.dropwizard.metrics', name: 'metrics-core', version: '3.1.0'
 
     implementation 'io.dropwizard.metrics:metrics-core:3.1.0'
 
     implementation 'org.postgresql:postgresql:42.2.23'
+    testImplementation 'org.dbunit:dbunit:2.7.2'
 }
 
 test {
